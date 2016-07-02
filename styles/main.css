@@ -1,0 +1,46 @@
+.section
+{
+    float: left;
+    width: calc(100% - 24px) !important;
+    margin-bottom: 20px;
+    font-family: "Lato" !important;
+}
+
+#setting-header
+{
+}
+
+input[type=text]
+{
+    padding: 10px;
+    width: 300px;
+}
+
+#btnLoginWithDancehub,
+#btnSaveSettings
+{
+    width: 300px;
+    height: 41px;
+    background: #E9474A none repeat scroll 0 0;
+    color: #FFF;
+    border: medium none;
+    font-family: "Lato";
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #DDD, 0 0 0 4px #E9474A;
+    outline: medium none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.FlowupLabels .fl_label
+{
+    top: 23px;
+    left: 5px;
+    position: absolute;
+    z-index: 3;
+    -webkit-transition: all .05s linear;
+    -moz-transition: all .05s linear;
+    -transition: all .05s linear;
+    font-size: 16px;
+}
